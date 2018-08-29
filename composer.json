@@ -1,0 +1,24 @@
+{
+    "name": "bpd/police-api-library",
+    "description": "Police API Library",
+    "keywords": [
+        "police",
+        "api"
+    ],
+    "type": "library",
+    "homepage": "https://github.com/BigPropertyData/police-api-library",
+    "require": {
+        "php" : ">=5.5.0",
+        "guzzlehttp/guzzle" : "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BigPropertyData\\Police\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
