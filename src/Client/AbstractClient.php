@@ -81,7 +81,7 @@ class AbstractClient
                 )
             );
         } else {
-            list($params['lat'], $params['lng']) = $params;
+            list($params['lat'], $params['lng']) = $location;
         }
 
         return $params;
